@@ -3,7 +3,7 @@ package common
 import (
 	"testing"
 
-	"github.com/makiuchi-d/gozxing"
+	"github.com/stephan57160/gozxing"
 )
 
 func TestDetectorResult(t *testing.T) {

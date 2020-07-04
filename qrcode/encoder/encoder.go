@@ -8,10 +8,10 @@ import (
 	"golang.org/x/text/encoding/ianaindex"
 	"golang.org/x/text/encoding/japanese"
 
-	"github.com/makiuchi-d/gozxing"
-	"github.com/makiuchi-d/gozxing/common"
-	"github.com/makiuchi-d/gozxing/common/reedsolomon"
-	"github.com/makiuchi-d/gozxing/qrcode/decoder"
+	"github.com/stephan57160/gozxing"
+	"github.com/stephan57160/gozxing/common"
+	"github.com/stephan57160/gozxing/common/reedsolomon"
+	"github.com/stephan57160/gozxing/qrcode/decoder"
 )
 
 const (

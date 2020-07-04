@@ -3,10 +3,10 @@ package qrcode
 import (
 	"testing"
 
-	"github.com/makiuchi-d/gozxing"
-	"github.com/makiuchi-d/gozxing/qrcode/decoder"
-	"github.com/makiuchi-d/gozxing/qrcode/detector"
-	"github.com/makiuchi-d/gozxing/qrcode/encoder"
+	"github.com/stephan57160/gozxing"
+	"github.com/stephan57160/gozxing/qrcode/decoder"
+	"github.com/stephan57160/gozxing/qrcode/detector"
+	"github.com/stephan57160/gozxing/qrcode/encoder"
 )
 
 func TestQRCodeWriter_renderResult(t *testing.T) {

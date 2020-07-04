@@ -1,7 +1,7 @@
 package decoder
 
 import (
-	"github.com/makiuchi-d/gozxing"
+	"github.com/stephan57160/gozxing"
 )
 
 type QRCodeDecoderMetaData struct {

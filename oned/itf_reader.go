@@ -1,7 +1,7 @@
 package oned
 
 import (
-	"github.com/makiuchi-d/gozxing"
+	"github.com/stephan57160/gozxing"
 )
 
 // Implements decoding of the ITF format, or Interleaved Two of Five.

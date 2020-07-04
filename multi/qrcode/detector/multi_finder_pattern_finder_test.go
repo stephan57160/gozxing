@@ -6,8 +6,8 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/makiuchi-d/gozxing"
-	"github.com/makiuchi-d/gozxing/qrcode/detector"
+	"github.com/stephan57160/gozxing"
+	"github.com/stephan57160/gozxing/qrcode/detector"
 )
 
 var qrstr = "" +

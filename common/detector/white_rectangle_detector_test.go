@@ -3,7 +3,7 @@ package detector
 import (
 	"testing"
 
-	"github.com/makiuchi-d/gozxing"
+	"github.com/stephan57160/gozxing"
 )
 
 func TestNewWhiteRectangleDetector(t *testing.T) {
