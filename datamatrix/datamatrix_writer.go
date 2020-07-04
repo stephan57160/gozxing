@@ -63,6 +63,14 @@ func (this *DataMatrixWriter) Encode(contents string, format gozxing.BarcodeForm
 		return nil, e
 	}
 
+	_, ok := hints[gozxing.EncodeHintType_DATA_MATRIX_READER_PROGRAMMING]
+	if ok {
+		if len(encoded) > 1 {
+			encoded = encoded[:len(encoded)-1]        // Remove last (padding ?) byte.
+			encoded = append([]byte{234}, encoded...) // Prepend PROGRAMMiNG READER code.
+		}
+	}
+
 	symbolInfo, _ := encoder.SymbolInfo_Lookup(len(encoded), shape, minSize, maxSize, true)
 
 	//2. step: ECC generation

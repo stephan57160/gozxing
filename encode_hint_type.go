@@ -93,6 +93,11 @@ const (
 	 * {@link String } value).
 	 */
 	EncodeHintType_GS1_FORMAT
+
+	/**
+	 * Specified whether the data should be encoded for a READER PROGRAMMING Datamatrix.
+	 */
+	EncodeHintType_DATA_MATRIX_READER_PROGRAMMING
 )
 
 func (this EncodeHintType) String() string {
@@ -123,6 +128,8 @@ func (this EncodeHintType) String() string {
 		return "QR_MASK_PATTERN"
 	case EncodeHintType_GS1_FORMAT:
 		return "GS1_FORMAT"
+	case EncodeHintType_DATA_MATRIX_READER_PROGRAMMING:
+		return "DATA_MATRIX_READER_PROGRAMMING"
 	}
 	return ""
 }
